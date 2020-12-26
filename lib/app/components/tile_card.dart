@@ -106,7 +106,8 @@ class TileCard extends StatelessWidget {
                       children: [
                         Padding(
                           padding: EdgeInsets.symmetric(
-                              horizontal: maxWidth * 0.05, vertical: 5),
+                              horizontal: maxWidth * 0.05,
+                              vertical: maxHeight * 0.02),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
